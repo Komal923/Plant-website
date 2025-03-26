@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    height: 1600px;
+    width: 1500px;
+    background-color: rgb(222, 219, 219);
+    margin: auto;
+}
+.nav4{
+    height: 100px;
+    width: 1500px;
+    background-color:rgb(246 234 214 / 96%);
+    position: relative;
+}
+.nav1 img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+}
+.nav2{
+    height: 100px;
+    width: 500px;
+    color:#024f02;
+}
+.nav2 h1{
+    padding-top: 15px;
+}
+.nav2 ul li{
+   list-style: none;
+    float: left;
+    line-height: 30px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+.nav3{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 25px;
+    left: 1050px;
+}
+
+
+.nav3 ul li{
+   list-style: none;
+    float: left;
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 10px;
+}
+
+
+
+/*====================================== navbar============================== */
+
+.nav{
+    height: 50px;
+    width: 1500px;
+    background-color: #4c7169;
+    color: white;
+    padding-left: 550px;
+
+}
+
+
+.nav ul li{
+   list-style: none;
+    float: left;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+  
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color:#ffff66;
+}
+
+.box2{
+    height:1200px;
+    width:  1500px;
+}
+.heading1{
+    height: 100px;
+    width: 1500px;
+    text-align: center;
+    background-color:  #f5f1de;
+    padding: 10px;
+  
+}
+.heading2{
+    height: 100px;
+    width:1479px;
+    text-align: center;
+    padding: 10px;
+    background-color: #AFA756;
+    color: #40423F;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.content{
+    height: 1200px;
+    width: 1500px;
+    position: absolute;
+}
+/* ============================up blog content================================== */
+
+.up{
+    height: 500px;
+    width:1500px;
+}
+.blog1{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    padding: 20px;
+    align-items: center;
+    /* border: solid black 2px; */
+    
+}
+.blog1 p{
+
+    height: 50px;
+    width: 400px;
+    overflow: scroll;
+}
+
+.blog1 button{
+    background-color: rgb(129, 127, 127);
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:10px ;
+
+}
+.blog1 button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(0, 0,0.2);
+}
+.blog1 button:active{
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+.blog2{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 70px;
+    padding: 20px;
+    align-items: center;
+    /* border: solid black 2px; */
+    
+}
+.blog2 p{
+    height: 50px;
+    width: 400px;
+    overflow: scroll;
+}
+
+.blog2 button{
+    background-color: rgb(129, 127, 127);
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:10px ;
+
+}
+.blog2 button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(0, 0,0.2);
+}
+.blog2 button:active{
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+.blog3{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 109px;
+    padding: 20px;
+    align-items: center;
+    /* border: solid black 2px; */
+    
+}
+.blog3 p{
+    height: 50px;
+    width: 400px;
+    overflow: scroll;
+}
+
+.blog3 button{
+    background-color: rgb(129, 127, 127);
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:10px ;
+
+}
+.blog3 button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(0, 0,0.2);
+}
+.blog3 button:active{
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+/* ===========================down blog content====================== */
+.down{
+height: 500px;
+width:1500px;
+
+}
+.blog4{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top:20px;
+    left: 12px;
+    padding: 20px;
+    align-items: center;
+    margin: 15px;
+    /* border: solid black 2px; */
+    
+}
+.blog4 p{
+    height: 50px;
+    width: 400px;
+    overflow: scroll;
+}
+
+.blog4 button{
+    background-color: rgb(129, 127, 127);
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:10px ;
+
+}
+.blog4 button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(0, 0,0.2);
+}
+.blog4 button:active{
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+.blog5{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top:20px;
+    left: 25px;
+    padding: 20px;
+    align-items: center;
+    margin: 15px;
+    /* border: solid black 2px; */
+    
+}
+.blog5 p{
+    height: 50px;
+    width: 400px;
+    overflow: scroll;
+}
+
+.blog5 button{
+    background-color: rgb(129, 127, 127);
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:10px ;
+
+}
+.blog5 button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(0, 0,0.2);
+}
+.blog5 button:active{
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+.blog6{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top:20px;
+    left: 35px;
+    padding: 20px;
+    align-items: center;
+    margin: 15px;
+    /* border: solid black 2px; */
+    
+}
+.blog6 p{
+    height: 50px;
+    width: 400px;
+    overflow: scroll;
+}
+
+.blog6 button{
+    background-color: rgb(129, 127, 127);
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:10px ;
+
+}
+.blog6 button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(0, 0,0.2);
+}
+.blog6 button:active{
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+
+
+
+/* =======================footer========================== */
+.footer {
+height: 300px;
+width: 1500px;
+background-color: #4c7169; /* Adjust the footer background color */
+color: #ffffff;
+padding: 20px 0;
+position: relative;
+top: 80px;
+left: 0px;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.footer-section {
+flex: 1;
+margin: 10px;
+float: left;
+
+}
+
+.footer-section h3,
+.footer-section h4 {
+margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+margin-bottom: 10px;
+}
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+text-decoration: none;
+color: #ffffff;
+transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+color: #ddd;
+}
+
+.footer-bottom {
+text-align: center;
+margin-top: 20px;
+border-top: 1px solid #ccc;
+padding-top: 10px;
+}
+
+.social-icons {
+margin-top: 10px;
+}
+
+.social-icons a {
+color: #ffffff;
+margin: 0 10px;
+text-decoration: none;
+font-size: 20px;
+}
+
+.social-icons a:hover {
+color: #ddd;
+}
