@@ -18,6 +18,6 @@ This website provides an engaging user experience with creative designs and stru
 ## Technologies Used  
 - *HTML* – Structure of the website.  
 - *CSS* – Styling and layout design.  
-- *JavaScript* – Adding interactivity and functionality.  
+ 
 
 ## Netify app link : https://plants-green.netlify.app/blog
